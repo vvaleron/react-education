@@ -1,0 +1,40 @@
+bower_components
+vendors
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+npm-debug.log
+.idea/
+node_modules/
+build/
+nuget_packages/
+
+### Bower ###
+/vendor_libs/*
+!/vendor_libs/handsontable-ruleJS/
+!/vendor_libs/eslint-formatter/
+!/vendor_libs/nuget-deps/
+
+### Linux ###
+.*
+!.gitignore
+!.git*
+!.editorconfig
+!.jshintrc
+!.npmignore
+!.npmrc
+!.bowerrc
+!.travis.yml
+!.eslintrc
+!.jscsrc
+*~
+
+### SASS ###
+### SASS Ignores - "Sassy CSS" http://sass-lang.com/
+*.sass-cache
